@@ -3,9 +3,6 @@ import ButtonComponent from './ButtonComponent'
 import CartWidget from './CartWidget';
 import LogoComponent from './LogoComponet';
 
-
-
-
 export default function NavBar() {
   return (
     <section>
@@ -17,6 +14,7 @@ export default function NavBar() {
                     <ButtonComponent nombre="Productos" />
                     <ButtonComponent nombre="Contacto" />
                     <CartWidget/>
+                    
                 </nav>
             </div>
 
