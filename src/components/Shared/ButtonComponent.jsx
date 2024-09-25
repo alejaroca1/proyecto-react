@@ -6,7 +6,7 @@ export default function ButtonComponent({nombre}){
 
     return(
         <>
-        <button onClick={handleClick} >{nombre}</button>
+        <button className="px-5" onClick={handleClick} >{nombre}</button>
         </>
     )
 }
