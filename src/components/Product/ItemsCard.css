@@ -1,0 +1,60 @@
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-btn .liked {
+    color: red; /* Corazón lleno en rojo */
+  }
+  
+  .like-btn .unliked {
+    color: gray; /* Corazón vacío en gris */
+  }
+  
+  .contCards {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .likeYprecio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .btnDetalles {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btnDetalles a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btnDetalles:hover {
+    background-color: #0056b3;
+  }
+  

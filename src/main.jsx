@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import { initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"
+import { BrowserRouter } from 'react-router-dom'
 
 const firebaseConfig = {
   apiKey: "AIzaSyDdKUaBgtt8JmHeGvyY-KXSLlYJZKeaCn0",
@@ -19,8 +20,12 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app)
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));  // Usa createRoot en vez de render
+
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
