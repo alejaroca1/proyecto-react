@@ -11,7 +11,7 @@ export default function NavBar() {
       <div className="container-fluid mt-3">
         <nav className="navbar">
           <div className="row w-100 align-items-center">
-            {/* Sección izquierda */}
+
             <div className="col d-flex justify-content-start">
               <ButtonComponent nombre="Nuevo" />
               <ButtonComponent nombre="Accesorios" />
@@ -19,12 +19,10 @@ export default function NavBar() {
               <ButtonComponent nombre="Tendencias" />
             </div>
 
-            {/* Logo en el centro */}
             <div className="col d-flex justify-content-center">
               <LogoComponent />
             </div>
 
-            {/* Sección derecha */}
             <div className="col d-flex justify-content-end align-items-center">
               <SearchComponent />
               <ButtonComponent nombre="Contacto" />
