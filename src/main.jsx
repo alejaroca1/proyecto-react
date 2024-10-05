@@ -20,7 +20,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app)
 
-const root = ReactDOM.createRoot(document.getElementById('root'));  // Usa createRoot en vez de render
+const root = ReactDOM.createRoot(document.getElementById('root')); 
 
 root.render(
   <React.StrictMode>

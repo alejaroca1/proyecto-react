@@ -1,55 +1,57 @@
 @font-face {
     font-family: 'Larken';
     src: url('path-to-your-larken-font.woff2') format('woff2');
-  }
-  
-  .navbar {
-    font-family: 'Larken', sans-serif;
-    padding: 10px 0;
-  }
+}
 
-  .navbar img {
-    max-width: 80px;
-  }
-  
-  .navbar button {
-    background-color: transparent; 
-    border: none; 
-    color: #333; 
-    font-size: 18px; 
+.btnPrincipal {
+  color: rgb(255, 0, 0) !important
+}
 
-    transition: color 0.3s ease, background-color 0.3s ease;
-    cursor: pointer;
-  }
+.navbar {
+  font-family: 'Larken', sans-serif;
+  padding: 10px 0;
+}
+
+.navbar img {
+  max-width: 50px;
+}
   
-  .navbar button:hover {
-    color: #e4582d;
-    background-color: #f8f9fa; 
-    border-radius: 5px; 
-  }
-  
-  .navbar input[type="text"] {
-    padding: 8px 12px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-right: 10px;
-    font-size: 16px;
-  }
-  
-  .navbar .col.d-flex.justify-content-end {
-    gap: 15px;
-  }
-  
-  .navbar .col.d-flex.justify-content-center {
-    text-align: center;
-  }
-  
-  .navbar {
-    border-bottom: 1px solid #e5e5e5;
-    background-color: #fff;
-  }
-  
-  .navbar button:focus {
-    outline: none;
-  }
-  
+.navbar button {
+  background-color: transparent; 
+  border: none; 
+  color: #333; 
+  font-size: 15px; 
+
+  transition: color 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  color: #808080;
+  background-color: transparent; 
+}
+
+.navbar input[type="text"] {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.navbar .col.d-flex.justify-content-end {
+  gap: 15px;
+}
+
+.navbar .col.d-flex.justify-content-center {
+  text-align: center;
+}
+
+.navbar {
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.navbar button:focus {
+  outline: none;
+}

@@ -1,4 +1,4 @@
-import { addDoc, collection, getFirestore } from "firebase/firestore"
+import { addDoc, collection, doc, getFirestore, updateDoc } from "firebase/firestore"
 import { createContext, useState } from "react"
 
 export const CartContext = createContext([])
@@ -16,6 +16,12 @@ export function CartProvider({ children }) {
 
         addDoc(orders, order).then((snapshot) =>{
             setOrderId(snapshot.id)
+
+            const getDoc = doc(db,'order',snapshot.id)
+
+            updateDoc(getDoc,{orderId:snapshot.id})
+
+            alert(snapshot.id)
         })
     }
     

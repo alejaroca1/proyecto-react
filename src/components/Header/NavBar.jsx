@@ -13,13 +13,13 @@ export default function NavBar() {
           <div className="row w-100 align-items-center">
 
             <div className="col d-flex justify-content-start">
-              <ButtonComponent nombre="Nuevo" />
+              <ButtonComponent className="btnPrincipal" nombre="Nuevo" />
               <ButtonComponent nombre="Accesorios" />
               <ButtonComponent nombre="Ropa" />
               <ButtonComponent nombre="Tendencias" />
             </div>
 
-            <div className="col d-flex justify-content-center">
+            <div className="col d-flex justify-content-center px-0">
               <LogoComponent />
             </div>
 
