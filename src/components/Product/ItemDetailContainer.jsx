@@ -1,11 +1,11 @@
-import { useState, useEffect, useContext } from 'react'; // <== Agrega useState aquí
+import { useState, useEffect, useContext } from 'react'; 
 import { useParams } from 'react-router-dom';
 import ItemCount from '../Cart/ItemCount';
 import { CartContext } from '../../context/CartContext';
 import { doc, getDoc, getFirestore } from 'firebase/firestore';
 
 export default function ItemDetailView() {
-  const [product, setProduct] = useState({});  // useState ahora está definido
+  const [product, setProduct] = useState({});  
   const { id } = useParams();
   const { cart, addItem } = useContext(CartContext); 
 

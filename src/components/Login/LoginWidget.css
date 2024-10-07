@@ -1,0 +1,13 @@
+.icon-user {
+    font-size: 24px;
+    color: #000;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 0px 30px;
+  }
+  
+  .icon-user:hover {
+    color: #007bff; 
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,27 @@
+.btn-comp {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-comp:hover {
+    color: #00000000;
+  }
+
+  .btn-comp.hover-turquesa:hover {
+    color: #7fffd4 !important;
+  }
+  
+  .btn-comp.hover-rubi:hover {
+    color: #80002b !important;
+  }
+
+  .btn-comp.hover-ambar:hover {
+    color: #ff7e00 !important;
+  }
+
+  .btn-comp.hover-negro:hover {
+    color: #000000 !important;
+  }
+  
