@@ -28,7 +28,7 @@ export default function NavBar() {
                 <ButtonComponent nombre="Cuidado Personal" color="#000000" hoverClass="hover-rubi"/>
                 </Link>
 
-                <Link to={"/category/tedencias"}>
+                <Link to={"/category/tendencias"}>
                 <ButtonComponent nombre="Tendencias" color="#000000" hoverClass="hover-ambar"/>
                 </Link>
 
@@ -42,7 +42,7 @@ export default function NavBar() {
 
               <div className="col d-flex justify-content-end align-items-center">
                 
-                <Link to={"/category/contacto"}>
+                <Link to={"/contacto"}>
                 <ButtonComponent nombre="Contacto" color="#000000"/>
                 </Link>
 
